@@ -1,6 +1,6 @@
 import React from 'react'
 import { Row, Col, Typography } from 'antd'
-import chair from '../../assets/chair.png'
+import chair from '../../assets/chair.webp'
 
 const { Text, Title } = Typography
 export const Section1 = () => {

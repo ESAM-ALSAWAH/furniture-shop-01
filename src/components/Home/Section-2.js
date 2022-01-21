@@ -1,9 +1,9 @@
 import React from 'react'
 import { Row, Col, Button, Image, Typography, Space } from 'antd'
 import { ArrowRightOutlined } from '@ant-design/icons'
-import Workspace from '../../assets/White-and-green-living-room.jpg'
-import Girlroom from '../../assets/Girl-room.jpg'
-import Minimalist from '../../assets/Minimalist-bright.jpg'
+import Workspace from '../../assets/White-and-green-living-room.webp'
+import Girlroom from '../../assets/Girl-room.webp'
+import Minimalist from '../../assets/Minimalist-bright.webp'
 import shapeScreen from '../../assets/shape-screen.png'
 import { Link } from 'react-router-dom'
 
