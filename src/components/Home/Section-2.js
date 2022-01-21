@@ -26,7 +26,7 @@ export const Section2 = () => {
           eiusmod tempor incididunt ut.
         </Text>
         <div className="image-box">
-          <Image src={Workspace} width="100%" />
+          <Image src={Workspace} width="100%" height="auto" />
           <div className="image-title">Workspace</div>
         </div>
         <Title className="heading">Refine Your Vision</Title>
@@ -59,7 +59,7 @@ export const Section2 = () => {
         xs={{ span: 24 }}
       >
         <div className="image-box">
-          <Image src={Girlroom} width="100%" />
+          <Image src={Girlroom} width="100%" height="auto" />
           <div className="image-title">Bedroom</div>
         </div>
         <Title className="heading">Selected Style</Title>
@@ -77,7 +77,7 @@ export const Section2 = () => {
             }}
           />
         </div>
-        <Image src={Minimalist} width="100%" />
+        <Image src={Minimalist} width="100%" height="auto" />
         <Title className="heading">Sunday Collection</Title>
         <div className="relative">
           <img
