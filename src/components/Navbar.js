@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import Logo from '../assets/icons/logo.svg'
 import { Space, Menu, Dropdown, Button } from 'antd'
 import { DownOutlined, MenuOutlined, CloseOutlined } from '@ant-design/icons'
-import '../styles/navbar.css'
+
 const StoreMenu = (
   <Menu className="dropdown">
     <Menu.Item key="1">

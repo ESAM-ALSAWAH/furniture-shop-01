@@ -1,7 +1,7 @@
 import React from 'react'
 import { Row, Col } from 'antd'
 import { Section1, Section2, Section3 } from '../components'
-import '../styles/home.css'
+
 export const Home = () => {
   return (
     <Row>
