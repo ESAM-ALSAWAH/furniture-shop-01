@@ -1,5 +1,7 @@
 export * from './Navbar'
+export * from './FooterContainer'
 export * from './Home/Section-1'
 export * from './Home/Section-2'
 export * from './Home/Section-3'
 export * from './Home/Section-4'
+export * from './Home/Section-5'

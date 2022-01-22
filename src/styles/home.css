@@ -148,6 +148,7 @@ span.description {
 .section-3 .box * {
   display: block;
 }
+/* -----home/section4------- */
 .section-4 {
   position: relative;
   background: url('../assets/bg1-2.png');
@@ -161,8 +162,48 @@ span.description {
   margin: 2rem 0;
   display: block;
 }
-/* -----home/section4------- */
 
+/* -----home/section5------- */
+.section-5 {
+  position: relative;
+  background-color: #f2f6f6;
+  margin-block: 10rem;
+}
+.section-5 .col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.section-5 .col .discreption {
+  margin-block: 1rem;
+  color: #7a7a7a;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: justify;
+  text-justify: inter-word;
+  word-break: break-all;
+}
+.section-5 .col button {
+  width: fit-content;
+  height: 50px;
+  background-color: #136465;
+  outline: none;
+  border: none;
+  margin-block: 2rem;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+.section-5 .col button:hover {
+  background-color: rgba(17, 32, 32, 0.9);
+}
 @media screen and (max-width: 768px) {
   .section-1 .custome-shape {
     width: 80%;

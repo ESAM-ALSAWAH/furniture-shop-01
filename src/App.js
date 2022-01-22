@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter } from 'react-router-dom'
 import { Layout } from 'antd'
-import { Navbar } from './components'
+import { Navbar, FooterContainer } from './components'
 import RoutesPages from './routes/index.routes'
 const { Header, Content, Footer } = Layout
 
@@ -14,7 +14,9 @@ const App = () => {
       <Content className="content">
         <RoutesPages />
       </Content>
-      <Footer></Footer>
+      <Footer>
+        <FooterContainer />
+      </Footer>
     </BrowserRouter>
   )
 }

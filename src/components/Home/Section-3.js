@@ -1,6 +1,6 @@
 import React from 'react'
 import { Row, Col, Avatar, Typography } from 'antd'
-import shapeScreen from '../../assets/shape-screen.png'
+
 
 const { Text, Title } = Typography
 export const Section3 = () => {
