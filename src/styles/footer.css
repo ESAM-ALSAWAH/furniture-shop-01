@@ -1,6 +1,7 @@
 footer {
   background-color: #fff !important;
   padding: 0 !important;
+  position: relative;
 }
 .col-1 {
   position: relative;
@@ -10,6 +11,7 @@ footer {
   width: 100%;
   height: 320px;
   background-position: center center;
+  z-index: 1000 !important;
 }
 .col-1 .container {
   position: relative;
@@ -18,6 +20,7 @@ footer {
   justify-content: center;
   gap: 100px;
   height: 100%;
+  z-index: 1000 !important;
 }
 .col-1 .container .circle {
   position: absolute;
@@ -43,6 +46,7 @@ footer {
   padding: 0 3rem;
   border: none;
   outline: none;
+  z-index: 1000;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -70,6 +74,59 @@ footer {
 .col-1 .container .img-2 {
   left: 65%;
 }
+
+/* ---- */
+.col-2 {
+  background: url('../assets/footer.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-position: center center;
+  position: absolute;
+  bottom: 0;
+  padding-top: 10rem;
+  top: 80%;
+  height: fit-content;
+}
+.col-2 .container .icon-container {
+  display: flex;
+  gap: 20px;
+}
+.col-2 .container .icon-container i {
+  font-size: 20px;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  display: grid;
+  place-items: center;
+  border: 2px solid #fff;
+  cursor: pointer;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+}
+.col-2 .container .icon-container i:hover {
+  background: #fff;
+  color: rgb(19, 100, 101);
+}
+.col-2 .container .list-container * {
+  cursor: context-menu;
+  color: #fff;
+}
+.col-2 .container .list-container .text {
+  display: block;
+  margin-block: 15px;
+  color: rgba(255, 255, 255, 0.63);
+  font-weight: 300;
+}
 @media screen and (max-width: 768px) {
   .col-1 .container {
     flex-direction: column;
@@ -83,5 +140,12 @@ footer {
   }
   .col-1 .container .circle {
     display: none;
+  }
+  .col-2 .container {
+    text-align: center;
+  }
+  .col-2 .container .icon-container{
+    justify-content: center;
+    margin-bottom: 4rem;
   }
 }
