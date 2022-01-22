@@ -2,6 +2,7 @@
 .home .section-1 {
   background: #136465;
   padding: 10rem 0;
+  overflow-x: hidden;
 }
 .home .section-1 * {
   color: #fff !important;
@@ -187,10 +188,12 @@
   width: fit-content;
 }
 @media screen and (max-width: 768px) {
-  .section-1 .custome-shape {
+  .home .section-1 .custome-shape {
+    margin: auto;
     width: 80%;
     height: 80%;
   }
+
   .section-1 .custome-shape img {
     margin-top: -40%;
   }
