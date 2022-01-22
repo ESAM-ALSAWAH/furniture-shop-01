@@ -1,0 +1,79 @@
+.about {
+  margin-block: 2rem;
+}
+
+.about h1 {
+  color: #1a3117;
+  font-size: 45px;
+  font-weight: bold;
+  line-height: 60px;
+}
+.about span {
+  display: block;
+  color: #7a7a7a;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 30px;
+}
+.about .section-1 .col-1 > * {
+  margin-block: 30px;
+}
+
+.about .section-2 {
+  margin-block: 2rem;
+}
+.about .section-2 .container {
+  text-align: center;
+}
+.about .section-2 .container * {
+  margin-block: 1rem;
+}
+.about .section-2 .container h1 {
+  position: relative;
+}
+.about .section-2 .container h1::after {
+  position: absolute;
+  content: '';
+  width: 10%;
+  height: 5px;
+  background: #1a3117;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+.about .section-2 .container span {
+  max-width: 800px !important;
+  width: 100% !important;
+  margin: auto;
+}
+
+.about .section-3 {
+  position: relative;
+  background: url('../assets/bg1-2.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-block: 6rem;
+}
+.about .section-3 .col-2 > * {
+  margin-block: 2rem;
+}
+.about .section-3 .col-2 .btn-primary span {
+  color: #fff !important;
+}
+.about .section-4 {
+  position: relative;
+  background: url('../assets/bg6.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-block: 6rem;
+}
+.about .section-4 .col-1 > * {
+  margin-block: 2rem;
+}
+.about .section-4 .col-1 .btn-primary span {
+  color: #fff !important;
+}

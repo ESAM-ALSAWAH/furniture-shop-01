@@ -1,20 +1,20 @@
 /* ---home/section-1--- */
-.section-1 {
+.home .section-1 {
   background: #136465;
   padding: 10rem 0;
 }
-.section-1 * {
+.home .section-1 * {
   color: #fff !important;
 }
-.section-1 h1 {
+.home .section-1 h1 {
   font-size: 50px;
 }
-.section-1 span {
+.home .section-1 span {
   line-height: 30px;
   display: block;
   margin-block-end: 2rem;
 }
-.section-1 button {
+.home .section-1 button {
   background-color: rgb(221, 182, 0);
   outline: none;
   border: none;
@@ -31,10 +31,10 @@
   -ms-transition: background 0.3s ease;
   -o-transition: background 0.3s ease;
 }
-.section-1 button:hover {
+.home .section-1 button:hover {
   background-color: rgba(221, 182, 0, 0.9);
 }
-.section-1 .custome-shape {
+.home .section-1 .custome-shape {
   position: relative;
   width: 400px;
   height: 400px;
@@ -49,7 +49,7 @@
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
 }
-.section-1 .custome-shape .circle {
+.home .section-1 .custome-shape .circle {
   position: relative;
   width: 90%;
   height: 90%;
@@ -60,25 +60,25 @@
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
 }
-.section-1 .custome-shape img {
+.home .section-1 .custome-shape img {
   width: calc(100% + 100px);
   height: calc(100% + 100px);
   margin-left: -2rem;
   margin-top: -50%;
 }
 /* ---home/section-2--- */
-.section-2 {
+.home .section-2 {
   margin-block: 5rem;
   color: #1a3117;
 }
 
-h1.heading {
+.home h1.heading {
   font-size: 45px;
   font-weight: bold;
   margin-block: 2rem;
 }
 
-span.description {
+.home span.description {
   color: #7a7a7a;
   font-size: 18px;
   font-weight: 300;
@@ -86,8 +86,8 @@ span.description {
   line-height: 40px;
   margin-block: 2rem;
 }
-.section-2 a,
-.section-4 a {
+.home .section-2 a,
+.home .section-4 a {
   display: inline-block;
   color: #136465;
   font-weight: 600;
@@ -97,17 +97,17 @@ span.description {
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
 }
-.section-2 a:hover,
-.section-4 a:hover {
+.home .section-2 a:hover,
+.home .section-4 a:hover {
   display: block;
   font-size: 15px;
   color: #136465;
 }
-.section-2 .image-box {
+.home .section-2 .image-box {
   position: relative;
 }
 
-.section-2 .image-box .image-title {
+.home .section-2 .image-box .image-title {
   position: absolute;
   background-color: #fff;
   width: fit-content;
@@ -116,26 +116,26 @@ span.description {
   padding: 10px;
   font-weight: 700;
 }
-.section-2 img {
+.home .section-2 img {
   margin-block: 2rem;
 }
-.section-2 .btn {
+.home .section-2 .btn {
   background-color: transparent;
 }
-.section-2 .relative img {
+.home .section-2 .relative img {
   position: absolute;
   z-index: -1;
 }
 
 /* ---home/section-3--- */
-.section-3 .section-title {
+.home .section-3 .section-title {
   color: #7a7a7a;
   font-size: 22px;
 
   margin-block-end: 3rem;
 }
 
-.section-3 .box {
+.home .section-3 .box {
   margin-block: 4rem;
   box-shadow: 0px 20px 30px 2px rgb(0 0 0 / 3%);
   padding: 40px;
@@ -145,36 +145,36 @@ span.description {
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
 }
-.section-3 .box * {
+.home .section-3 .box * {
   display: block;
 }
 /* -----home/section4------- */
-.section-4 {
+.home .section-4 {
   position: relative;
-  background: url('../assets/bg1-2.png');
+  background: url('../assets/bg1-2.webp');
   background-size: cover;
   background-repeat: no-repeat;
 }
-.section-4 .col img {
+.home .section-4 .col img {
   margin-block-end: 3rem;
 }
-.section-4 .col .description {
+.home .section-4 .col .description {
   margin: 2rem 0;
   display: block;
 }
 
 /* -----home/section5------- */
-.section-5 {
+.home .section-5 {
   position: relative;
   background-color: #f2f6f6;
   margin-block: 10rem;
 }
-.section-5 .col {
+.home .section-5 .col {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.section-5 .col .discreption {
+.home .section-5 .col .discreption {
   margin-block: 1rem;
   color: #7a7a7a;
   font-size: 18px;
@@ -183,26 +183,8 @@ span.description {
   text-justify: inter-word;
   word-break: break-all;
 }
-.section-5 .col button {
+.home .section-5 .col .btn-primary {
   width: fit-content;
-  height: 50px;
-  background-color: #136465;
-  outline: none;
-  border: none;
-  margin-block: 2rem;
-  border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
-  transition: all 0.3s ease;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -ms-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-}
-.section-5 .col button:hover {
-  background-color: rgba(17, 32, 32, 0.9);
 }
 @media screen and (max-width: 768px) {
   .section-1 .custome-shape {

@@ -1,8 +1,8 @@
 import { Row, Col, Typography, Button } from 'antd'
 import React from 'react'
 import { ArrowRightOutlined } from '@ant-design/icons'
-import shapeScreen from '../assets/doodles.png'
-import Logo from '../assets/icons/logo.svg'
+import shapeScreen from '../assets/doodles.webp'
+
 const { Title, Text } = Typography
 
 const listData = {
@@ -60,7 +60,7 @@ export const FooterContainer = () => {
           <Title>
             Have a question <br /> or need help?
           </Title>
-          <Button type="primary">
+          <Button className="btn-primary" type="primary">
             Contact us <ArrowRightOutlined />
           </Button>
           <div className="circle"></div>

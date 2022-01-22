@@ -4,7 +4,7 @@ import { ArrowRightOutlined } from '@ant-design/icons'
 import Workspace from '../../assets/White-and-green-living-room.webp'
 import Girlroom from '../../assets/Girl-room.webp'
 import Minimalist from '../../assets/Minimalist-bright.webp'
-import shapeScreen from '../../assets/shape-screen.png'
+import shapeScreen from '../../assets/shape-screen.webp'
 import { Link } from 'react-router-dom'
 
 const { Text, Title } = Typography

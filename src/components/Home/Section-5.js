@@ -18,7 +18,9 @@ export const Section5 = () => {
           Lorem ipsum dolor sit amet, consectetur adipisci <br /> elitosos, sed
           do eiusmod tempor incididunt u
         </Text>
-        <Button type="primary">Discover More</Button>
+        <Button className="btn-primary" type="primary">
+          Discover More
+        </Button>
       </Col>
       <Col
         lg={{ span: 12, order: 2 }}

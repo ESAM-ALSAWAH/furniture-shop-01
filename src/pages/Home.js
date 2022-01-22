@@ -1,6 +1,12 @@
 import React from 'react'
 import { Row, Col } from 'antd'
-import { Section1, Section2, Section3, Section4, Section5 } from '../components'
+import {
+  Section1,
+  Section2,
+  Section3,
+  Section4,
+  Section5,
+} from '../components/Home'
 import '../styles/home.css'
 
 const Line = (props) => (
@@ -24,7 +30,7 @@ const Line = (props) => (
 
 export const Home = () => {
   return (
-    <Row>
+    <Row className="home">
       <Col className="section-1">
         <Section1 />
       </Col>
